@@ -1,0 +1,25 @@
+disclaimer{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 484px;
+    height: 100px;
+    background: #F7F7F6;
+    border: 3px solid #A9A99E;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.disclaimer_text{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 484px;
+    height: 100px;
+    color: #000000;
+}

@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Input from './components/Input/Input'
 import Bin2Dec,{isBinary} from './Utils/Binary2Decimal/Binary2Decimal'
+import Disclaimer from './components/Disclaimer/Disclaimer'
 
 export default class App extends React.Component {
  
@@ -24,6 +25,9 @@ export default class App extends React.Component {
                     <Input label={'Binary'} value={this.state.value} onChange={this.typing} error={error? "" : "error"} />
                     <Input label={'Decimal'} disabled="disabled" value={error?Bin2Dec(this.state.value):""}/>
                 </div>
+                <div>
+                    <Disclaimer/>
+                </div>     
             <Footer/>
         </>
     }
